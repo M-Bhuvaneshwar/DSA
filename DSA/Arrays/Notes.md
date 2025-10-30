@@ -175,9 +175,9 @@ Each index directly points to a memory address (contiguous).
 | Sorting   | Arrange in order                 |
 
 ---
-> If the array is delcread inside the main it is assigned with garbage values
+ If the array is delcread inside the main it is assigned with garbage values
 
-> If it is delcard outside the main method it is assigned with the 0
+ If it is delcard outside the main method it is assigned with the 0
 
 ```java
 int arr[] = new int[6]; //zeros
