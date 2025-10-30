@@ -2,47 +2,40 @@ package Arrays;
 
 public class Second_largest_element_without_sorting {
     public static void main(String[] args) {
-        int arr[] = { 2, 645, 9, 45, 99, 5, 777, 00, 96, 444 };
+        int arr[] = { 2, 645, 9, 777, 776, 45, 99, 5, 777, 00, 96, 444 };
 
-        int largest =-1 ;  //777
-        int secondLargest =-1;  //645
+        int largest = arr[0];
+        int secondLargest = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-
+        for (int i = 1; i < arr.length; i++) {
             if (arr[i] > largest) {
-
-              
                 secondLargest = largest;
-
-              
                 largest = arr[i];
-
             } else if (arr[i] > secondLargest && arr[i] != largest) {
                 secondLargest = arr[i];
             }
         }
+        System.out.println(largest);
+        System.out.println(secondLargest);
 
-        System.out.println("Largest element: " + largest);
-        System.out.println("Second largest element: " + secondLargest);
-
+        // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        // Wrong code
 
         // int largest = arr[0];
         // int secondLargest = -1;
         // for (int i = 1; i < arr.length; i++) {
-        //     if (arr[i] > largest) {
-        //         largest = arr[i];
-        //     }
+        // if (arr[i] > largest) {
+        // largest = arr[i];
+        // }
         // }
         // System.out.println("Largest is :" + largest);
         // for (int i = 0; i < arr.length; i++) {
-        //     if (arr[i] > secondLargest && secondLargest != largest) {
-        //         secondLargest = arr[i];
-        //     }
+        // if (arr[i] > secondLargest && secondLargest != largest) {
+        // secondLargest = arr[i];
+        // }
         // }
         // System.out.println("secondLargest is :" + secondLargest);
-
-
-        
+        // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
         // int largest1 = arr[0];
         // int largest2 = arr[1];
@@ -61,6 +54,7 @@ public class Second_largest_element_without_sorting {
         // }
         // }
         // System.out.println("the second largeset element is " + largest1);
+        // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     }
 }
