@@ -147,7 +147,9 @@ Each index directly points to a memory address (contiguous).
 ## 🔹 Advantages
 
 ✅ Fast access using index
+
 ✅ Simple to use
+
 ✅ Best for fixed-size collections
 
 ---
@@ -155,7 +157,9 @@ Each index directly points to a memory address (contiguous).
 ## 🔹 Limitations
 
 ❌ Fixed size (can’t grow or shrink)
+
 ❌ Only same type elements allowed
+
 ❌ Insertion and deletion are costly
 
 ---
