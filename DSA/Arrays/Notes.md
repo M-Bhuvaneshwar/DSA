@@ -175,5 +175,18 @@ Each index directly points to a memory address (contiguous).
 | Sorting   | Arrange in order                 |
 
 ---
+> If the array is delcread inside the main it is assigned with garbage values
+> If it is delcard outside the main method it is assigned with the 0
 
-Would you like me to give you **“Advanced Array Notes”** next (covering multi-dimensional arrays, jagged arrays, and common algorithms like sorting/searching)?
+```java
+int arr[] = new int[6]; //zeros
+public static void main(String args]){
+
+}
+```
+
+```java
+public static void main(String args){
+    int arr[] = new int[6]; //garbage values
+
+}
