@@ -191,3 +191,12 @@ public static void main(String args){
     int arr[] = new int[6]; //garbage values
 
 }
+
+
+max length of array can define 10^6 inside main
+
+max length of array can define 10^7 outside main
+
+index start form 0 to and ends with n-1
+
+contigious memory allocation
