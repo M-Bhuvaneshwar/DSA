@@ -18,6 +18,8 @@ public class Second_largest_element_without_sorting {
         System.out.println(largest);
         System.out.println(secondLargest);
 
+        //Time compelexity : O(n)
+
         // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
         // Wrong code
 
